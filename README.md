@@ -23,7 +23,6 @@ Built with 💡 Hugging Face Transformers, 🧠 spaCy, and 🖥️ Streamlit.
 
 ## 🧠 Architecture
 
-```mermaid
 graph LR
 A[User Topic Input] --> B[Fetch Articles from APIs]
 B --> C[Filter Trusted & Relevant News]
@@ -31,7 +30,6 @@ C --> D[Summarize Text (Hugging Face)]
 D --> E[Generate Key Insights (LLM)]
 E --> F[Display in Streamlit]
 F --> G[Evaluate with ROUGE Scores]
-```
 
 ---
 
