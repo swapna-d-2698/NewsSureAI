@@ -1,0 +1,17 @@
+requests
+beautifulsoup4
+newspaper3k
+transformers
+torch
+lxml==5.3.2
+streamlit
+google-search-results
+rouge-score
+rouge
+python-dateutil
+trafilatura
+requests-html
+lxml-html-clean
+huggingface_hub
+python-dotenv
+spacy
