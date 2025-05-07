@@ -599,7 +599,7 @@ with col1:
 if st.button("Fetch Latest Articles"):
     with st.spinner(f"Fetching articles related to '{query}'..."):
         newsdata_articles = fetch_newsdata_articles(query, num_days)
-        serpapi_articles = []
+        serpapi_articles = fetch_serpapi_articles(query, num_days)
 
         print(f"Fetched {len(newsdata_articles)} from NewsData.io, and {len(serpapi_articles)} from SerpAPI.")
         
